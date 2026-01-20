@@ -1,50 +1,59 @@
-# Inovação Farmacêutica com AWS 
+# Inovação Farmacêutica com AWS
 
-Projeto técnico desenvolvido como parte de um desafio prático da **DIO**, com foco na implementação estratégica de serviços da **Amazon Web Services (AWS)** para redução de custos operacionais em uma indústria farmacêutica fictícia.
+Projeto técnico desenvolvido como parte de um desafio prático da **Digital Innovation One (DIO)**, com foco na **adoção estratégica da Amazon Web Services (AWS)** para redução de custos operacionais e modernização da infraestrutura de uma indústria farmacêutica fictícia.
 
 ---
 
-## 🏭 Contexto
+## 🏭 Contexto do Negócio
 
-A **Abstergo Industries** atua como um hub de distribuição farmacêutica, conectando fabricantes, distribuidores e farmácias.  
-O cenário inicial considera uma empresa **sem infraestrutura em nuvem**, operando exclusivamente com recursos on-premises.
+A **Abstergo Industries** atua como um hub de distribuição farmacêutica, conectando fabricantes, distribuidores e redes de farmácias.
+
+No cenário inicial, a empresa opera exclusivamente com infraestrutura **on-premises**, enfrentando desafios como:
+
+- Alto custo de aquisição e manutenção de servidores físicos
+- Baixa escalabilidade em períodos de alta demanda
+- Dificuldade no controle e previsibilidade de gastos
+- Dependência de infraestrutura local
 
 ---
 
 ## 🎯 Objetivo do Projeto
 
-Demonstrar como a adoção da computação em nuvem pode:
+Demonstrar, de forma conceitual e técnica, como a migração para a nuvem pode:
 
-- Reduzir custos operacionais
-- Eliminar investimentos em hardware físico
-- Aumentar escalabilidade
-- Melhorar controle e previsibilidade financeira
+- Reduzir custos operacionais e de capital (CAPEX → OPEX)
+- Eliminar a necessidade de servidores físicos locais
+- Permitir escalabilidade sob demanda
+- Melhorar o controle financeiro com monitoramento contínuo
+- Aumentar a eficiência operacional da empresa
 
 ---
 
 ## ☁️ Serviços AWS Utilizados
 
 | Serviço | Finalidade |
-|------|-----------|
-| Amazon EC2 | Computação sob demanda para sistemas internos |
-| Amazon S3 | Armazenamento escalável e seguro |
-| AWS Cost Explorer | Análise detalhada de custos |
-| AWS Budgets | Controle e alertas financeiros |
+|-------|-----------|
+| **Amazon EC2** | Hospedagem de aplicações internas com computação sob demanda |
+| **Amazon S3** | Armazenamento escalável para documentos, relatórios e backups |
+| **AWS Cost Explorer** | Análise detalhada e visualização dos custos de consumo |
+| **AWS Budgets** | Definição de orçamentos e alertas para controle financeiro |
 
 ---
 
 ## 🧱 Arquitetura Proposta (Visão Conceitual)
 
-- Aplicações internas hospedadas em instâncias EC2
-- Documentos, relatórios e backups armazenados no Amazon S3
-- Monitoramento contínuo de custos com Cost Explorer e Budgets
-- Eliminação de servidores físicos locais
+- Aplicações corporativas executando em instâncias **Amazon EC2**
+- Armazenamento centralizado e seguro no **Amazon S3**
+- Monitoramento e governança financeira com **Cost Explorer** e **Budgets**
+- Infraestrutura totalmente em nuvem, eliminando servidores físicos locais
+
+Essa abordagem permite que a empresa pague apenas pelos recursos utilizados, com maior previsibilidade e controle de custos.
 
 ---
 
-## 📄 Documentação
+## 📄 Documentação Técnica
 
-A documentação completa da solução está disponível no arquivo:
+A documentação detalhada da solução, incluindo análise de cenário, justificativas técnicas e visão estratégica, está disponível em:
 
 📘 **modelo-relatorio.md**
 
@@ -52,9 +61,9 @@ A documentação completa da solução está disponível no arquivo:
 
 ## 👤 Autor
 
-**Roberto Cesar Yanes**  
-GitHub: https://github.com/YANES1957
+**Roberto César Yanes**  
+GitHub: [https://github.com/YANES1957](https://github.com/YANES1957)
 
 ---
 
-> Projeto educacional desenvolvido para fins de aprendizado, simulação de cenário real e portfólio profissional.
+Projeto educacional desenvolvido para fins de aprendizado, simulação de cenário real e composição de portfólio profissional na área de **Cloud Computing e AWS**.
