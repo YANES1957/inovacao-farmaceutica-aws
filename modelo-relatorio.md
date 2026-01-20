@@ -1,86 +1,113 @@
 # RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
 
-**Projeto:** Inovação Farmacêutica em Cloud Computing  
-**Data:** 20/01/2026  
 **Empresa:** Abstergo Industries  
-**Responsável:** Roberto Cesar Oliveira Yanes  
+**Projeto:** Inovação Farmacêutica com AWS  
+**Responsável:** Roberto Cesar Yanes  
+**Data de Início:** Janeiro de 2026  
 
 ---
 
 ## 1. Introdução
 
-Este relatório apresenta a proposta de implementação de serviços em nuvem utilizando a **Amazon Web Services (AWS)** na empresa Abstergo Industries, uma indústria farmacêutica fictícia que atua como hub de distribuição.
+Este relatório descreve a implementação conceitual de serviços da **Amazon Web Services (AWS)** na empresa fictícia **Abstergo Industries**, atuante no setor farmacêutico.
 
-O objetivo principal é demonstrar como a nuvem pode gerar **redução imediata de custos**, maior **eficiência operacional** e **controle financeiro**, substituindo a infraestrutura física tradicional.
-
----
-
-## 2. Visão Geral da Estratégia
-
-A estratégia de cloud adotada baseia-se em três pilares:
-
-- Computação sob demanda
-- Armazenamento escalável
-- Governança financeira
-
-A implementação foi organizada em três etapas, permitindo adoção gradual e controle de riscos.
+O objetivo principal do projeto é demonstrar como a adoção da computação em nuvem pode gerar **redução imediata de custos operacionais**, aumentar a escalabilidade e melhorar o controle financeiro, substituindo uma infraestrutura totalmente on-premises.
 
 ---
 
-## 3. Etapas de Implementação
+## 2. Cenário Atual (Antes da AWS)
 
-### Etapa 1 – Amazon EC2
+Antes da adoção da nuvem, a Abstergo Industries enfrentava os seguintes desafios:
 
-- **Serviço:** Amazon EC2 (Elastic Compute Cloud)
-- **Foco:** Computação escalável sob demanda
+- Alto investimento em servidores físicos (CAPEX elevado)
+- Custos recorrentes de manutenção, energia e espaço físico
+- Baixa flexibilidade para escalar recursos
+- Falta de visibilidade detalhada sobre os custos de TI
+- Risco operacional por dependência de infraestrutura local
+
+---
+
+## 3. Estratégia de Migração para AWS
+
+A estratégia adotada foi selecionar **serviços AWS essenciais**, com foco direto em **redução de custos**, simplicidade e controle financeiro.
+
+O projeto foi dividido em três etapas principais.
+
+---
+
+## 4. Etapas de Implementação
+
+### 🔹 Etapa 1 – Amazon EC2 (Computação sob Demanda)
+
+**Serviço:** Amazon EC2  
+**Foco:** Substituição de servidores físicos  
 
 **Caso de uso:**  
-Hospedagem de sistemas internos como controle de estoque, pedidos e aplicações administrativas.
+As aplicações internas da empresa passaram a ser executadas em instâncias EC2, permitindo:
 
-**Redução de custos:**  
-- Eliminação de servidores físicos
-- Redução de custos com energia e manutenção
-- Pagamento apenas pelo tempo de uso das instâncias
+- Pagamento apenas pelo tempo de uso
+- Escalabilidade conforme demanda
+- Eliminação de custos com hardware físico
+- Maior disponibilidade e flexibilidade operacional
 
 ---
 
-### Etapa 2 – Amazon S3
+### 🔹 Etapa 2 – Amazon S3 (Armazenamento Escalável)
 
-- **Serviço:** Amazon S3 (Simple Storage Service)
-- **Foco:** Armazenamento seguro e altamente durável
+**Serviço:** Amazon S3  
+**Foco:** Armazenamento seguro e de baixo custo  
 
 **Caso de uso:**  
-Armazenamento de documentos fiscais, contratos, relatórios, notas e backups operacionais.
+Documentos corporativos, relatórios, backups e arquivos regulatórios passaram a ser armazenados no Amazon S3, proporcionando:
 
-**Redução de custos:**  
-- Pagamento proporcional ao volume armazenado
-- Uso de classes de armazenamento mais econômicas
-- Eliminação de servidores de arquivos locais
+- Alta durabilidade dos dados
+- Redução de custos com storage local
+- Escalabilidade automática
+- Segurança e controle de acesso
 
 ---
 
-### Etapa 3 – AWS Cost Explorer e AWS Budgets
+### 🔹 Etapa 3 – AWS Cost Explorer e AWS Budgets (Governança Financeira)
 
-- **Serviços:** AWS Cost Explorer e AWS Budgets
-- **Foco:** Monitoramento e controle financeiro
+**Serviços:** AWS Cost Explorer e AWS Budgets  
+**Foco:** Monitoramento e controle de custos  
 
 **Caso de uso:**  
-Acompanhamento contínuo dos custos em nuvem, criação de orçamentos e alertas automáticos de gastos.
+A empresa implementou ferramentas de governança financeira para:
 
-**Redução de custos:**  
-- Evita gastos inesperados
-- Aumenta previsibilidade financeira
-- Apoia decisões estratégicas do gestor financeiro
-
----
-
-## 4. Conclusão
-
-A implementação dos serviços AWS propostos permite à Abstergo Industries reduzir custos operacionais, aumentar a escalabilidade e obter maior controle financeiro.
-
-Este projeto representa o primeiro passo da empresa em direção à transformação digital e à modernização de sua infraestrutura de TI.
+- Visualizar detalhadamente o consumo de recursos
+- Identificar desperdícios
+- Definir orçamentos mensais
+- Receber alertas automáticos ao atingir limites financeiros
 
 ---
 
-**Responsável por este relatório:**  
-Roberto Cesar Yanes
+## 5. Benefícios Obtidos
+
+Com a adoção dos serviços AWS, a Abstergo Industries obteve:
+
+- Redução significativa de custos operacionais
+- Eliminação de investimentos em infraestrutura física
+- Maior previsibilidade financeira
+- Escalabilidade sob demanda
+- Modernização da arquitetura de TI
+- Melhoria no controle e na tomada de decisões
+
+---
+
+## 6. Conclusão
+
+A implementação dos serviços AWS demonstrou que a computação em nuvem é uma solução eficiente e estratégica para o setor farmacêutico.
+
+A Abstergo Industries passou a operar com maior eficiência, menor custo e maior controle financeiro, reforçando a importância da nuvem como pilar de inovação tecnológica.
+
+Recomenda-se a continuidade da evolução da arquitetura em nuvem, com a possível adoção futura de serviços como **AWS RDS**, **AWS IAM** e **AWS CloudWatch**.
+
+---
+
+## 7. Anexos
+
+- Documentação conceitual da arquitetura
+- Diagramas ilustrativos (opcional)
+- Materiais de apoio do projeto
+
