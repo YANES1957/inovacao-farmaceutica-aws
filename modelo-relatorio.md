@@ -103,11 +103,3 @@ A Abstergo Industries passou a operar com maior eficiência, menor custo e maior
 
 Recomenda-se a continuidade da evolução da arquitetura em nuvem, com a possível adoção futura de serviços como **AWS RDS**, **AWS IAM** e **AWS CloudWatch**.
 
----
-
-## 7. Anexos
-
-- Documentação conceitual da arquitetura
-- Diagramas ilustrativos (opcional)
-- Materiais de apoio do projeto
-
